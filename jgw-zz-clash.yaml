@@ -5,16 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 甲骨文-首尔-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 49630, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-首尔-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 48343, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-东京-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 37250, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-东京-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 43033, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-大阪-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 35591, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-大阪-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 47025, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-凤凰城-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 38567, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-凤凰城-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 40083, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-悉尼-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 49873, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 甲骨文-悉尼-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 41589, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-首尔-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 47989, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-首尔-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 43370, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-东京-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 37910, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-东京-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 49451, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-大阪-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 43394, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-大阪-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 38877, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-凤凰城-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 38167, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-凤凰城-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 30774, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-悉尼-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 31582, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-悉尼-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 36295, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps, server: china-gzyd-1.forwardserver.xyz, port: 36029, type: trojan, password: 36352-2-41419784784722, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +32,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,6 +48,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -62,6 +65,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: 📲 电报信息
     type: select
     proxies:
@@ -77,6 +81,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -92,6 +97,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,6 +113,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -123,6 +130,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,6 +163,7 @@ proxy-groups:
       - 甲骨文-凤凰城-ARM2-trojan-广移中转
       - 甲骨文-悉尼-ARM1-trojan-广移中转
       - 甲骨文-悉尼-ARM2-trojan-广移中转
+      - 岛主的广州移动香港隧道2Gbps到DigitalOcean新加坡1Gbps
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2848,6 +2857,7 @@ rules:
  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
