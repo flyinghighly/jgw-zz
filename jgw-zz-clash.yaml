@@ -5,6 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 甲骨文-春川-ARM1-trojan, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文-春川-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 37553, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
   - {name: 甲骨文-首尔-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 47989, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
   - {name: 甲骨文-首尔-ARM2-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 43370, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
   - {name: 甲骨文-东京-ARM1-trojan-广移中转, server: china-gzyd-1.forwardserver.xyz, port: 37910, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: china-gzyd-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
@@ -22,6 +24,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -38,6 +42,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -55,6 +61,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -71,6 +79,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -87,6 +97,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -103,6 +115,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -120,6 +134,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
@@ -153,6 +169,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 甲骨文-春川-ARM1-trojan
+      - 甲骨文-春川-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM1-trojan-广移中转
       - 甲骨文-首尔-ARM2-trojan-广移中转
       - 甲骨文-东京-ARM1-trojan-广移中转
